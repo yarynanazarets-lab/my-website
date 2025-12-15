@@ -1,0 +1,99 @@
+.main{
+
+    width: 1000px;
+    
+    margin: auto;
+}
+
+.head{
+display: flex;
+    gap: 10px;   
+    height: 230px;
+    background-color: bisque;
+}
+h1{
+font-size: 40pt;   
+ font-family: "Pacifico", cursive;
+ font-family: "Bad Script", cursive;
+
+ font-weight:800;
+}
+
+.box1 {
+    padding: 0px;
+    text-align: center;
+   
+    width: 70%;/*один блок = один рядок */   
+  }
+
+  .box2 {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+   background-color: beige;
+    width: 150px;/*один блок = один рядок */   
+  }
+
+  .box2 img{height: 150px;}
+
+.text
+{
+display: flex;
+justify-content: center;
+align-items: center;
+    background-color: bisque;
+    height: 90px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+
+}
+    
+
+.flex-columns {
+    display: flex;
+    gap: 10px;
+    
+}
+.column {
+    flex: 1;
+    justify-content: center;
+align-items: center;
+    padding: 15px;
+    background: #e8ffe8;
+
+    
+}
+
+.flex-columns img{
+  width: 100%;
+}
+.flex-columns h1{text-align: center;
+margin-bottom: 50px;}
+.flex-columns p{text-align: center;}
+.column img {  
+  width: 100%;
+}
+p{
+  font-size: 19pt;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.center-box img{
+
+  width: 50%;
+   
+}
+.center-box p{
+padding: 50px;
+ background: #e8ffe8;
+  font-size: 20px;
+}
